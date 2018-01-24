@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Form Submit</title>
 </head>
 <body>
+    <!-- action - where the form will send data to -->
+    <!-- method - what HTTP method (get/post) -->
+
    <h1>Sign In</h1> 
-   <form action="/sign-in-url" method="post">
-        <input type="text" placeholder="Name">
-        <input type="password" placeholder="Password">
+   <form>
+        <input name="username" type="text" placeholder="Name">
+        <input name="password" type="password" placeholder="Password">
         <button>Login</button>
     </form>
 </body>
