@@ -9,11 +9,18 @@
 <body>
     <!-- action - where the form will send data to -->
     <!-- method - what HTTP method (get/post) -->
-
+    <!-- Two ways to add labels -->
    <h1>Sign In</h1> 
    <form>
-        <input name="username" type="text" placeholder="Name">
-        <input name="password" type="password" placeholder="Password">
+       <!-- <label for="username">Username:</label>
+       <input id="username" name="username" type="text" placeholder="Name">
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password" placeholder="Password"> -->
+
+        <label>Username:<input name="username" type="text" placeholder="Name"></label>
+       
+        <label>Password:<input name="password" type="password" placeholder="Password"></label>
+        
         <button>Login</button>
     </form>
 </body>
