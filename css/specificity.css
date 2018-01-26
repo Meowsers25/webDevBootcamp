@@ -1,0 +1,19 @@
+body {
+    color: yellow;
+}
+
+ul {
+    color: red;
+}
+
+li {
+    color: blue;
+}
+
+.highlight {
+    color: pink;
+}
+
+#try {
+    color: green;
+}
