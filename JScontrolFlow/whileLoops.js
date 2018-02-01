@@ -12,11 +12,13 @@ while (even <= 40) {
     even +=2;
 };
 
-var odd = 301;
+var odd = 300;
 
 while (odd <= 333) {
-    console.log(odd);
-    odd +=2;
+    if (odd % 2 != 0) {
+        console.log(odd);
+    }
+    odd++;
 };
 
 var divisible = 5;
